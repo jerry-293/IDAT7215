@@ -22,4 +22,4 @@ A command-line tool that recommends Japanese cities based on your travel prefere
 1. Ensure you have Python 3.x installed.
 2. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/japan-travel-recommendation.git
+   git clone https://github.com/jerry-293/IDAT7215
