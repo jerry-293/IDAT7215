@@ -16,12 +16,12 @@ def get_user_input(questions):
 def recommend_city(answers, destinations):
     max_score = -1
     best_destinations = []
-    
     is_beginner = answers[0] == 'Yes'
     expectation = answers[1]
     season = answers[2]
     food = answers[3] if answers[3] != 'None of the above/ No preference' else None
-    
+    pace = answers[4]
+    activities = answers[5]
     for dest in destinations:
         score = 0
         
@@ -40,7 +40,10 @@ def recommend_city(answers, destinations):
         # Check food preference
         if food and food in dest['famous_foods']:
             score += 1
-        
+        if pace in dest['pace']:
+            score += 1
+        if activities in dest['activities']:
+            score += 1
         # Update best destinations
         if score > max_score:
             max_score = score
