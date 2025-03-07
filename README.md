@@ -25,13 +25,13 @@ A command-line tool that recommends Japanese cities based on your travel prefere
    git clone https://github.com/jerry-293/IDAT7215
 
 ## Future Improvements 💡
-Add more destinations and detailed attributes
-Implement a GUI/web interface
-Include budget considerations
-Add seasonal event filters (e.g., cherry blossoms, festivals)
+- Add more destinations and detailed attributes
+- Implement a GUI/web interface
+- Include budget considerations
+- Add seasonal event filters (e.g., cherry blossoms, festivals)
 
 ## Contributing 🤝
-Contributions are welcome! Feel free to:
-Report issues
-Suggest new destinations/features
-Improve the scoring algorithm
+- Contributions are welcome! Feel free to:
+- Report issues
+- Suggest new destinations/features
+- Improve the scoring algorithm
