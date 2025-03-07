@@ -32,6 +32,7 @@ A command-line tool that recommends Japanese cities based on your travel prefere
 
 ## Contributing 🤝
 - Contributions are welcome! Feel free to:
+- **Add more questions!**
 - Report issues
 - Suggest new destinations/features
 - Improve the scoring algorithm
