@@ -5,7 +5,7 @@ destinations = [
         'expectations': ['Shopping', 'Cuisine'],
         'best_seasons': ['Spring', 'Winter'],
         'famous_foods': ['Sushi', 'Tempura'],
-        'pace': ['Fast-paced'],
+        'pace': ['Fast-paced - see as much as possible'],
         'activities': ['Nightlife/entertainment']
     },
     {
@@ -14,7 +14,7 @@ destinations = [
         'expectations': ['Cultural exploration', 'Nature'],
         'best_seasons': ['Spring', 'Autumn'],
         'famous_foods': [],
-        'pace': ['Moderate'],
+        'pace': ['Moderate - mix of activities and relaxation'],
         'activities': ['Museum hopping']
     },
     {
@@ -23,7 +23,7 @@ destinations = [
         'expectations': ['Shopping', 'Cuisine'],
         'best_seasons': ['Spring', 'Summer', 'Autumn', 'Winter'],
         'famous_foods': [],
-        'pace': ['Moderate'],
+        'pace': ['Moderate - mix of activities and relaxation'],
         'activities': ['Nightlife/entertainment']
     },
     {
@@ -32,7 +32,7 @@ destinations = [
         'expectations': ['Cuisine'],
         'best_seasons': ['Spring', 'Summer', 'Autumn', 'Winter'],
         'famous_foods': ['Ramen'],
-        'pace': ['Moderate'],
+        'pace': ['Moderate - mix of activities and relaxation'],
         'activities': ['Nightlife/entertainment']
     },
     {
@@ -41,7 +41,7 @@ destinations = [
         'expectations': ['Nature'],
         'best_seasons': ['Spring', 'Autumn'],
         'famous_foods': [],
-        'pace': ['Slow travel'],
+        'pace': ['Slow travel - deep local immersion'],
         'activities': ['Relaxing hot springs']
     },
     {
@@ -50,16 +50,16 @@ destinations = [
         'expectations': ['Nature', 'Cultural exploration'],
         'best_seasons': ['Autumn', 'Spring'],
         'famous_foods': [],
-        'pace': ['Moderate'],
+        'pace': ['Moderate - mix of activities and relaxation'],
         'activities': ['Hiking/outdoor adventures']
     },
     {
-        'name': 'Hokkaido',
+        'name': 'Sapporo',
         'is_beginner_friendly': False,
         'expectations': ['Nature'],
         'best_seasons': ['Winter', 'Summer'],
         'famous_foods': [],
-        'pace': ['Slow travel'],
+        'pace': ['Slow travel - deep local immersion'],
         'activities': ['Hiking/outdoor adventures']
     },
     {
@@ -68,7 +68,7 @@ destinations = [
         'expectations': ['Cultural exploration'],
         'best_seasons': ['Spring', 'Summer', 'Autumn', 'Winter'],
         'famous_foods': [],
-        'pace': ['Moderate'],
+        'pace': ['Moderate - mix of activities and relaxation'],
         'activities': ['Museum hopping']
     },
 ]
