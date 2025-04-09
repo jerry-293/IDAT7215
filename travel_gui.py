@@ -197,6 +197,7 @@ class TravelApp:
             self.answers.append(self.option_var.get())
         self.current_question += 1
         print(f"Moving to question {self.current_question + 1}")
+        print(self.option_var.get()) # 確認選擇的答案
         self.show_question()
 
     def show_question(self):
@@ -247,7 +248,9 @@ class TravelApp:
                 self.current_question = i  # 跳轉到未回答的問題
                 self.show_question()
                 return
-        
+        if self.language == "cn":
+            self.answers = dest.translate_answers_to_english(self.answers)
+        print(f"Final answers: {self.answers}")
         recommendation = recommend.recommend_city(self.answers, dest.destinations)
         if recommendation:
             # 限制最多顯示 3 個推薦地點

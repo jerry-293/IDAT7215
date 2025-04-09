@@ -303,6 +303,47 @@ questions = [
         }
     },
 ]
+def translate_answers_to_english(answers):
+    # Mapping of Chinese answers to English equivalents
+    translation_map = {
+        "是": "Yes",
+        "否": "No",
+        "購物": "Shopping",
+        "美食": "Cuisine",
+        "自然": "Nature",
+        "文化探索": "Cultural exploration",
+        "春天": "Spring",
+        "夏天": "Summer",
+        "秋天": "Autumn",
+        "冬天": "Winter",
+        "壽司": "Sushi",
+        "拉麵": "Ramen",
+        "天婦羅": "Tempura",
+        "大阪燒": "Okonomiyaki",
+        "神戶牛肉": "Kobe beef",
+        "以上皆非/無偏好": "None of the above/No preference",
+        "快節奏 - 盡可能多看": "Fast-paced - see as much as possible",
+        "中等 - 活動與放鬆兼顧": "Moderate - mix of activities and relaxation",
+        "慢旅 - 深入體驗當地": "Slow travel - deep local immersion",
+        "徒步/戶外冒險": "Hiking/outdoor adventures",
+        "博物館遊覽": "Museum hopping",
+        "夜生活/娛樂": "Nightlife/entertainment",
+        "放鬆溫泉": "Relaxing hot springs",
+        "海灘活動": "Beach activities",
+        "城市": "Urban cities",
+        "鄉村": "Rural areas",
+        "兩者兼顧": "A mix of both",
+        "是的，非常感興趣": "Yes, very interested",
+        "有些感興趣": "Somewhat interested",
+        "不太感興趣": "Not really",
+        "是的，我很喜歡": "Yes, I love it",
+        "有時會": "Sometimes",
+        "不，我更喜歡熟悉的口味": "No, I prefer familiar flavors",
+        "非常重要": "Very important",
+        "有更好但不必要": "Nice to have but not essential",
+        "不重要": "Not important"
+    }
+    return [translation_map.get(answer, answer) for answer in answers]
 
 content = './photo/'
 
